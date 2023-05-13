@@ -1,40 +1,55 @@
-/*
-Description: Minimal styling for in-class exercise
-Author: Aicha
-Email: aicha.pooloo@student.curtin.edu
-Tags: Todo List App 
-*/
-
 body {
-    font-family: helvetica, sans-serif;
-    font-size: 16px;
-    width: 600px;
+    width: 900px;
     margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-h1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
+header {
+    background-color: lightgrey;
 }
 
-.task {
-    list-style: none;
+header h1 {
+    height: 80px;
+    line-height: 80px;
 }
 
-.task.completed {
-    text-decoration: line-through;
+nav {
+    background-color: darkgray;
+    text-align: left;
+    padding: 10px;
 }
 
-button {
-    background-color: #a8bdd8e1;
+nav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: lightgray;
     color: black;
-    border: none;
-    padding: 5px 5px;
 }
 
-input[type=button] {
-    background-color: #a8bdd8e1;
-    color: black;
-    border: none;
-    padding: 5px 5px;
+#featured {
+    float: left;
+    width: 200px;
+    background-color: lightgray;
+}
+
+#content {
+    float: right;
+    width: 700px;
+}
+
+#extras {
+    background-color: lightgray;
+    float: left;
+    width: 200px;
+}
+
+footer {
+    clear: both;
 }
