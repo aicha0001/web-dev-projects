@@ -1,31 +1,44 @@
-/* Name: style.css
-   Author: Aicha
-   Description: Styling for Flatland
-   Version: 1.0
+/*
+Description: Minimal styling for in-class exercise
+Author:   Aicha Pooloo
+Email: aicha.pooloo@student.curtin.edu
+Tags: RSS Reader
 */
+
 body {
-    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    padding-top: 40px;
-    width: 550px;
-    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#square {
-    float: left;
-    width: 200px;
-    height: 200px;
-    background: red;
+/* Style the top navigation bar */
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
 }
 
-#words {
+/* Style the content */
+content {
     float: left;
-    width: 250px;
-    height: 200px;
-    font-size: 25px;
-    text-align: right;
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 10%;
-    border-right: 5px solid red;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    /* background-color: #f1f1f1; */
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
