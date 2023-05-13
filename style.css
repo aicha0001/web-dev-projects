@@ -1,55 +1,31 @@
+/* Name: style.css
+   Author: Aicha
+   Description: Styling for Flatland
+   Version: 1.0
+*/
 body {
-    width: 900px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 550px;
     margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-header {
-    background-color: lightgrey;
-}
-
-header h1 {
-    height: 80px;
-    line-height: 80px;
-}
-
-nav {
-    background-color: darkgray;
-    text-align: left;
-    padding: 10px;
-}
-
-nav a {
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: lightgray;
-    color: black;
-}
-
-#featured {
+#square {
     float: left;
     width: 200px;
-    background-color: lightgray;
+    height: 200px;
+    background: red;
 }
 
-#content {
-    float: right;
-    width: 700px;
-}
-
-#extras {
-    background-color: lightgray;
+#words {
     float: left;
-    width: 200px;
-}
-
-footer {
-    clear: both;
+    width: 250px;
+    height: 200px;
+    font-size: 25px;
+    text-align: right;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10%;
+    border-right: 5px solid red;
 }
