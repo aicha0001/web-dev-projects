@@ -11,13 +11,8 @@ body {
 }
 
 .circle {
-    /* float: left;
-     width:100px;
-     height:100px; */
     margin: 20px;
     border-radius: 50%;
-    /* shape-outside:circle();
-    clip-path:circle(); */
     background: red;
     color: white;
     font-size: 65px;
